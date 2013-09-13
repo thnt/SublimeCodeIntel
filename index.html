@@ -27,7 +27,7 @@
           <a id="forkme_banner" href="https://github.com/SublimeCodeIntel/SublimeCodeIntel">View on GitHub</a>
 
           <h1 id="project_title"><span class="title">Sublime</span>CodeIntel</h1>
-          <h2 id="project_tagline">A full-featured code intelligence and smart autocomplete engine for Sublime Text 2.<br><span class="title">JavaScript, Mason, XBL, XUL, RHTML, SCSS, Python, HTML, Ruby, Python3, XML, XSLT, Django, HTML5, Perl, CSS, Twig, Less, Smarty, Node.js, Tcl, TemplateToolkit, PHP.</span></h2>
+          <h2 id="project_tagline">A full-featured code intelligence and smart autocomplete engine for Sublime Text.<br><span class="title">JavaScript, Mason, XBL, XUL, RHTML, SCSS, Python, HTML, Ruby, Python3, XML, XSLT, Django, HTML5, Perl, CSS, Twig, Less, Smarty, Node.js, Tcl, TemplateToolkit, PHP.</span></h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/SublimeCodeIntel/SublimeCodeIntel/archive/master.zip">Download this project as a .zip file</a>
@@ -66,7 +66,7 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
 
-<p>Code intelligence plugin ported from <a href="http://www.openkomodo.com/" target="_blank">Open Komodo Editor</a> to <a href="http://www.sublimetext.com/2" target="_blank">Sublime Text 2</a>.</p>
+<p>Code intelligence plugin ported from <a href="http://www.openkomodo.com/" target="_blank">Open Komodo Editor</a> to <a href="http://www.sublimetext.com" target="_blank">Sublime Text</a>.</p>
 
 <p>Supports all the languages Komodo Editor supports for Code Intelligence (CIX, CodeIntel2):</p>
 
@@ -91,28 +91,28 @@
 
 <p><strong>Without Git:</strong> Download the latest source from <a href="http://github.com/SublimeCodeIntel/SublimeCodeIntel" target="_blank">GitHub</a> and copy the whole directory into the Packages directory.</p>
 
-<p><strong>With Git:</strong> Clone the repository in your Sublime Text 2 Packages directory, located somewhere in user's "Home" directory:</p>
+<p><strong>With Git:</strong> Clone the repository in your Sublime Text Packages directory, located somewhere in user's "Home" directory:</p>
 
 <pre><code>git clone git://github.com/SublimeCodeIntel/SublimeCodeIntel.git
 </code></pre>
 
-<p>The "Packages" packages directory is located at:</p>
+<p>The "Packages" packages directory is located differently in different platforms. To access the directory use:</p>
 
 <ul>
 <li>
 <p>OS X:</p>
 
-<p><code>~/Library/Application Support/Sublime Text 2/Packages/</code></p>
+<p>Sublime Text -> Preferences -> Browse Packages...</p>
 </li>
 <li>
 <p>Linux:</p>
 
-<p><code>~/.config/sublime-text-2/Packages/</code></p>
+<p>Preferences -> Browse Packages...</p>
 </li>
 <li>
 <p>Windows:</p>
 
-<p><code>%APPDATA%/Sublime Text 2/Packages/</code></p>
+<p>Preferences -> Browse Packages...</p>
 </li>
 </ul><h2>Using</h2>
 
@@ -126,9 +126,9 @@
 
 <h2>Troubleshooting</h2>
 <ul>
-<li>Check the <code>~/.codeintel/codeintel.log</code> file to see if there are any errors in it or in the Sublime Text 2 console.</li>
+<li>Check the <code>~/.codeintel/codeintel.log</code> file to see if there are any errors in it or in the Sublime Text console.</li>
 
-<li>Delete the directory with the CodeIntel database <code>~/.codeintel/db</code> and restart Sublime Text 2.</li>
+<li>Delete the directory with the CodeIntel database <code>~/.codeintel/db</code> and restart Sublime Text.</li>
 
 <li>Building process is no longer distributed with this repository. You need to get <code>SublimeCodeIntel/<a href="https://github.com/SublimeCodeIntel/CodeIntelSources/" target="_blank">CodeIntelSources</a></code> to run build.sh. More information in <code>SublimeCodeIntel/CodeIntelSources/<a href="https://github.com/SublimeCodeIntel/CodeIntelSources/src" target="_blank">src</a></code>.</li>
 <li>Open an Issue in <a href="https://github.com/SublimeCodeIntel/SublimeCodeIntel/issues" target="_blank">GitHub</a></li>
@@ -152,7 +152,7 @@
 
     <script src="javascripts/main.js" type="text/javascript"></script>
     <script type="text/javascript">
-    set_animation(animation_urls[0], animation_timelines[0], animation_urls[1])
+      set_animation(animation_urls[0], animation_timelines[0], animation_urls[1])
     </script>
 
   </body>
