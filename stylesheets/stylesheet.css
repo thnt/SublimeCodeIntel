@@ -143,20 +143,6 @@ strong {
   font-weight: bold;
 }
 
-img {
-  position: relative;
-  margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
-}
 
 pre, code {
   width: 100%;
@@ -169,9 +155,6 @@ pre, code {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-
-
-
 }
 
 pre {
@@ -435,8 +418,11 @@ Small Device Styles
 /*******************************************************************************
 Stuff from Sublime Text 2 page...
 *******************************************************************************/
-
 h1 {
+  text-align: center;
+}
+
+#header_wrap h1 {
   margin: 10px 0 0 0;
   font-weight: bold;
   -webkit-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
@@ -447,8 +433,12 @@ h1 {
 .title {
   color: #aaa;
 }
+.text {
+  color: #ccc;
+}
 
 .band {
+  text-align: center;
   background-color: #ccc;
   padding-top: 50px;
   padding-bottom: 20px;
